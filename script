@@ -1,0 +1,23 @@
+// sample 1 insert content when window.onload
+
+var myTitle = document.querySelector('h1');
+
+function titleInsert() {
+	myTitle.textContent = 'This is a test.';
+}
+
+window.onload = titleInsert;
+
+// sample 2 create element + append element + insert content when onclick
+
+var my = document.querySelector('button.btn');
+
+myBtn.onclick = function(){
+
+	var newElement = document.createElement('p');
+	var element = document.getElementById("div1");
+  
+  element.append(newElement);
+  newElement.textContent = 'This is an insert content on click';
+
+}
