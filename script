@@ -10,7 +10,7 @@ window.onload = titleInsert;
 
 // sample 2 create element + append element + insert content when onclick
 
-var my = document.querySelector('button.btn');
+var myBtn = document.querySelector('button.btn');
 
 myBtn.onclick = function(){
 
